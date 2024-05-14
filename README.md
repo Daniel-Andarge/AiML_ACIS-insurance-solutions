@@ -13,8 +13,6 @@ This project uses Data Version Control (DVC) to track and manage datasets.
 
 Data Version Control (DVC) is an open-source tool that helps you manage and version control your datasets. It works alongside Git to provide a complete solution for reproducible and collaborative machine learning projects.
 
-### Instructions
-
 To use the datasets in this project with DVC, follow these steps:
 
 1. Clone the repository:
@@ -51,21 +49,6 @@ To use the datasets in this project with DVC, follow these steps:
    This will download the dataset files associated with the project.
 
 6. You can now access the datasets and use them in your project.
-
-### Updating the Data
-
-If you want to get the latest version of the datasets or update them, follow these steps:
-
-1.  Pull the latest changes from the Git repository:
-
-    ```
-    git pull
-    ```
-
-2.  Pull the updated data from the remote storage:
-    `    dvc pull
-   `
-    This will update the dataset files with the latest versions.
 
 ## Data Description
 
