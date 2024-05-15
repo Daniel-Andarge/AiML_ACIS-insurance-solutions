@@ -94,3 +94,7 @@ target/
 # Mypy cache
 .mypy_cache/
 
+
+
+ inenv/
+local_storage/MachineLearningRating_v3.txt
