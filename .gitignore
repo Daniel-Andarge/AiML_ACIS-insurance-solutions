@@ -87,3 +87,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+local_storage/MachineLearningRating_v3.csv
+local_storage/cleaned_MachineLearningRating_v3.csv
+local_storage/MachineLearningRating_v3.txt
