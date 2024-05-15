@@ -77,7 +77,7 @@ target/
 
 # exclude data from source control by default
 /data/
-
+inenv
 # Mac OS-specific storage files
 .DS_Store
 
@@ -90,5 +90,5 @@ target/
 
 
 
- inenv/
+ 
 local_storage/MachineLearningRating_v3.txt
