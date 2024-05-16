@@ -1,5 +1,10 @@
 outs:
+<<<<<<< HEAD
 - md5: f6b7009b68ae21372b7deca9307fbb23
   size: 529363713
+=======
+- md5: 19c0194796ee64f2757329f00a576cd6
+  size: 529363703
+>>>>>>> 55bd3a560a9ac259f5761560c6d8f0f7c92b53de
   hash: md5
   path: MachineLearningRating_v3.txt
