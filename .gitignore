@@ -95,9 +95,7 @@ inenv
 .mypy_cache/
 
 
-
-<<<<<<< HEAD
- 
+>>>>>>> main
 local_storage/MachineLearningRating_v3.txt
 =======
  inenv/
