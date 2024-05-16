@@ -1,21 +1,18 @@
+
+import plotly.express as px
 import pandas as pd
-import matplotlib.pyplot as plt
 
-def plot_numerical_histograms(df, column):
+def plot_categorical_bar_chart(df, variable):
+    unique_values = df[variable].unique()
+    value_counts = df[variable].value_counts()
 
-        plt.figure(figsize=(8, 6))
-        df[column].plot.hist(bins=10)
-        plt.title(f'Histogram of {column}')
-        plt.xlabel(column)
-        plt.ylabel('Frequency')
-        plt.show()
+    # Create a DataFrame with unique values and their counts
+    data = pd.DataFrame({variable: unique_values, 'Count': value_counts})
 
-def plot_categorical_barcharts(df, column):
-   
-        plt.figure(figsize=(8, 6))
-        df[column].value_counts().plot.bar()
-        plt.title(f'Bar Chart of {column}')
-        plt.xlabel(column)
-        plt.ylabel('Frequency')
-        plt.show()
+    # Create the bar chart using Plotly Express
+    fig = px.bar(data, x=variable, y='Count', title=f'Bar Chart of {variable}')
+
+    # Show the chart
+    fig.show()
+
 
