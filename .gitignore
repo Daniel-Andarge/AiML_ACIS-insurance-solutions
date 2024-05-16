@@ -77,7 +77,7 @@ target/
 
 # exclude data from source control by default
 /data/
-
+inenv
 # Mac OS-specific storage files
 .DS_Store
 
@@ -95,6 +95,8 @@ target/
 .mypy_cache/
 
 
-
-inenv/
+>>>>>>> main
+local_storage/MachineLearningRating_v3.txt
+=======
+ inenv/
 local_storage/MachineLearningRating_v3.txt
