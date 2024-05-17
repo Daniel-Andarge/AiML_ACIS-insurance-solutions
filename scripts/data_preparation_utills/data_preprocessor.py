@@ -1,15 +1,4 @@
 
-
-# Data loading:
-
-# Data Saving:
-
-# Data cleaning:
-
-# Data transformation: 
-
-# Data quality checks: 
-
 import pandas as pd
 import os
 import sys
