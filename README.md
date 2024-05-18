@@ -50,18 +50,45 @@ To use the datasets in this project with DVC, follow these steps:
 
 6. You can now access the datasets and use them in your project.
 
-## Data Description
-
-## File Structure
-
-## Model Descriptions
-
-## Results and Evaluation
-
 ## Contributing Guidelines
+
+Thank you for considering contributing to [ACIS]! I welcome contributions from everyone.
+
+To contribute, follow these guidelines:
+
+1. Fork the repository and create a new branch for your changes.
+2. Check existing issues and pull requests to avoid duplicating work.
+3. Follow the project's coding style and conventions.
+4. Write clear commit messages and ensure your code is well-tested.
+5. Provide a detailed description when submitting a pull request.
+6. Be open to feedback and responsive during the review process.
+7. Respect the project's code of conduct.
+8. Your contributions will be licensed under the MIT License.
+
+I appreciate your contributions!
 
 ## License
 
-## Contact Information
+MIT License
 
-## Acknowledgments
+[AlphaCare Insurance Solutions (ACIS)]
+
+Copyright (c) [2024] [Daniel Andarge]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
