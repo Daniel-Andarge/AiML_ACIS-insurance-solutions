@@ -2,11 +2,11 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import chi2_contingency
-
 from scipy.stats import ttest_ind
 
-
 def prepare_data(data):
+   
+
     # Select relevant columns for analysis
     columns_of_interest = ['Province', 'TotalClaims']
     data = data[columns_of_interest]

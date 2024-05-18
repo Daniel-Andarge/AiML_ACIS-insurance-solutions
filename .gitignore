@@ -92,4 +92,7 @@ myenvva/
 local_storage/cleaned_MachineLearningRating_v3.csv
 local_storage/MachineLearningRating_v3.csv
 local_storage/MachineLearningRating_v3.txt
-notebooks/exploratory-data-analysis.ipynb
+myenvva/
+local_storage/cleaned_MachineLearningRating_v3.csv
+local_storage/MachineLearningRating_v3.csv
+local_storage/MachineLearningRating_v3.txt
