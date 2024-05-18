@@ -54,13 +54,6 @@ def handle_missing_values(df):
 
 
 
-def handdle_outliers(df):
-
-
-
-    return df_cleaned
-
-
 
 def save_dataset(df, output_folder, filename):
 
