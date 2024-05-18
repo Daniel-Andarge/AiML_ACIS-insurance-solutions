@@ -25,29 +25,6 @@ def plot_categorical_bar_chart(df, variable):
     fig.show()
 
 
-
-
-
-""" def plot_histogram(data, column, bins=20):
-
-    min_value = np.min(data[column])
-    max_value = np.max(data[column])
-    bin_range = int((max_value - min_value) / bins) // 10000 * 10000
-
-   
-    fig = go.Figure(data=[go.Histogram(x=data[column], xbins=dict(start=min_value, end=max_value, size=bin_range))])
-
-    fig.update_layout(
-        title=f'Histogram of {column}',
-        xaxis_title=column,
-        yaxis_title='Count',
-        bargap=0.1  
-    )
-
-    fig.update_layout(width=800, height=600)
-    fig.show() """
-
-
 def plot_histogram(dataset, variable, bar_width=0.8):
     # Check if the variable is numeric
     if dataset[variable].dtype != 'object':

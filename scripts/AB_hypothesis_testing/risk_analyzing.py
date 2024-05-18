@@ -1,10 +1,12 @@
+
 import pandas as pd
 import numpy as np
 from scipy.stats import chi2_contingency
+
 from scipy.stats import ttest_ind
 
+
 def prepare_data(data):
-   
     # Select relevant columns for analysis
     columns_of_interest = ['Province', 'TotalClaims']
     data = data[columns_of_interest]
@@ -12,7 +14,11 @@ def prepare_data(data):
     # Calculate the total claims for each province
     province_claim_totals = data.groupby('Province')['TotalClaims'].sum()
 
+    # Remove any provinces with missing or zero total claims (optional)
+    province_claim_totals = province_claim_totals[province_claim_totals > 0]
+
     return province_claim_totals
+
 
 
 def perform_hypothesis_test(data):
