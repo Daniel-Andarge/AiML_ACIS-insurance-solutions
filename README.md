@@ -1,9 +1,5 @@
 # AlphaCare Insurance Solutions (ACIS)
-
-## Repository Description
-
-The AlphaCare Insurance Solutions (ACIS) project is dedicated to the advancement of risk and predictive analytics within the realm of car insurance planning and marketing in South Africa.
-ACIS represents an innovative insurance solution that leverages advanced technology and data analytics. Its primary objective is to optimize insurance processes, elevate risk assessment capabilities, and elevate customer experiences through the utilization of advanced technologies, specifically predictive modeling and data analytics. Within this repository, stakeholders will find the complete collection of source code, comprehensive documentation, and other pertinent resources essential to the AlphaCare Insurance Solutions (ACIS) project..
+The ACIS project is dedicated to advancing risk and predictive analytics within car insurance planning and marketing in South Africa, representing an innovative insurance solution that leverages advanced technology and data analytics. The primary objectives of ACIS are to optimize insurance processes, elevate risk assessment capabilities, and enhance customer experiences, all achieved through the utilization of advanced technologies, specifically predictive modeling and data analytics.
 
 ## Usage Instructions
 
