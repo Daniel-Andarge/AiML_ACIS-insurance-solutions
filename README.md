@@ -67,9 +67,9 @@ I appreciate your contributions!
 
 MIT License
 
-[AlphaCare Insurance Solutions (ACIS)]
+AlphaCare Insurance Solutions (ACIS)
 
-Copyright (c) [2024] [Daniel Andarge]
+Copyright (c) 2024 Daniel Andarge
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
